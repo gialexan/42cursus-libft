@@ -6,19 +6,15 @@
 /*   By: gialexan <gialexan@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/09 17:39:28 by gialexan          #+#    #+#             */
-/*   Updated: 2022/06/26 15:31:22 by gialexan         ###   ########.fr       */
+/*   Updated: 2022/07/07 15:24:22 by gialexan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
 
-# include <stdio.h>
 # include <stdlib.h>
-# include <string.h>
 # include <unistd.h>
-# include <bsd/string.h>
-# include <stdint.h>
 
 typedef struct s_list
 {
