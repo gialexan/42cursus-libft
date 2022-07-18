@@ -6,7 +6,7 @@
 /*   By: gialexan <gialexan@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/09 14:28:20 by gialexan          #+#    #+#             */
-/*   Updated: 2022/06/26 16:01:49 by gialexan         ###   ########.fr       */
+/*   Updated: 2022/07/18 21:34:27 by gialexan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,7 +46,7 @@ static size_t	len_word(char const *s, char delimiter, int i)
 	return (c);
 }
 
-static char	**ft_alloc_word(char const *str, char c)
+static char	**alloc_word(char const *str, char c)
 {
 	char	**tab;
 
@@ -56,7 +56,7 @@ static char	**ft_alloc_word(char const *str, char c)
 	return (tab);
 }
 
-static char	*ft_alloc_digit(char const *str, char c, int i)
+static char	*alloc_digit(char const *str, char c, int i)
 {
 	char	*tab;
 

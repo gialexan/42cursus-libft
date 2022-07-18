@@ -6,13 +6,13 @@
 /*   By: gialexan <gialexan@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/07 23:55:59 by gialexan          #+#    #+#             */
-/*   Updated: 2022/06/26 15:55:38 by gialexan         ###   ########.fr       */
+/*   Updated: 2022/07/18 21:33:48 by gialexan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-static int	digits(unsigned int n)
+static int	count_digits(unsigned int n)
 {
 	if (n < 10)
 		return (1);
