@@ -6,7 +6,7 @@
 /*   By: gialexan <gialexan@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/07 23:55:59 by gialexan          #+#    #+#             */
-/*   Updated: 2022/07/18 21:33:48 by gialexan         ###   ########.fr       */
+/*   Updated: 2022/07/25 21:50:36 by gialexan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ static int	count_digits(unsigned int n)
 {
 	if (n < 10)
 		return (1);
-	return (digits(n / 10) + 1);
+	return (count_digits(n / 10) + 1);
 }
 
 static int	isnegative(int n)
@@ -35,7 +35,7 @@ char	*ft_itoa(int n)
 	negative = isnegative(n);
 	if (negative)
 		number = n * -1;
-	digit = digits(number) + negative;
+	digit = count_digits(number) + negative;
 	dest = (char *) malloc((digit + 1) * sizeof(char));
 	if (!dest)
 		return (NULL);

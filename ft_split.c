@@ -6,7 +6,7 @@
 /*   By: gialexan <gialexan@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/09 14:28:20 by gialexan          #+#    #+#             */
-/*   Updated: 2022/07/18 21:34:27 by gialexan         ###   ########.fr       */
+/*   Updated: 2022/07/25 21:50:54 by gialexan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -75,7 +75,7 @@ char	**ft_split(char const *str, char c)
 
 	i = 0;
 	j = 0;
-	tab = ft_alloc_word(str, c);
+	tab = alloc_word(str, c);
 	while (str[i])
 	{
 		w = 0;
@@ -83,7 +83,7 @@ char	**ft_split(char const *str, char c)
 			i++;
 		if (str[i])
 		{
-			tab[j] = ft_alloc_digit(str, c, i);
+			tab[j] = alloc_digit(str, c, i);
 			while (str[i] && str[i] != c)
 				tab[j][w++] = str[i++];
 			tab[j][w] = '\0';
