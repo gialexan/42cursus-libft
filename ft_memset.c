@@ -6,7 +6,7 @@
 /*   By: gialexan <gialexan@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/31 15:19:06 by gialexan          #+#    #+#             */
-/*   Updated: 2022/06/20 21:04:52 by gialexan         ###   ########.fr       */
+/*   Updated: 2022/11/06 17:00:52 by gialexan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,8 +18,6 @@ void	*ft_memset(void *str, int c, size_t n)
 
 	aux = (unsigned char *)str;
 	while (n--)
-	{
 		aux[n] = c;
-	}
 	return (aux);
 }
