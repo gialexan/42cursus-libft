@@ -4,7 +4,7 @@ My implementation of some of the Standard C Library functions.
 ### What is libft?
 Libft is an individual project at [42](https://www.42sp.org.br) that requires us to re-create some [C standard library](https://www.tutorialspoint.com/c_standard_library/index.htm) functions including some additional ones that can be used later to build a library of useful functions for the rest of the program.
 
-### Badge
+#### Badge
 <img src="libftm.png" width="150" height="150"/>
 
 #### Objectives
