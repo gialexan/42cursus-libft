@@ -7,6 +7,14 @@ Libft is an individual project at [42](https://www.42sp.org.br) that requires us
 ### Badge
 <img src="libftm.png" width="150" height="150"/>
 
+#### Objectives
+- Unix logic
+
+#### Skills
+- Rigor
+- Algorithms & AI
+- Imperative programming
+
 #### My grade
 <img src="score.png" width="150" height="150"/>
 
