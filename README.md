@@ -22,7 +22,7 @@ Libft is an individual project at [42](https://www.42sp.org.br) that requires us
 **Follow the steps below**
 ```bash
 # Clone the project and access the folder
-git clone https://github.com/gialexan/libft-42 && cd libft/
+git clone https://github.com/gialexan/42cursus-libft && cd 42cursus-libft/
 # Run Make so you can build the library
 make
 # Run Make with bonus if you want chained lists manipulation functions
