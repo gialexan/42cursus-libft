@@ -6,13 +6,14 @@
 /*   By: gialexan <gialexan@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/07 14:02:39 by gialexan          #+#    #+#             */
-/*   Updated: 2022/11/07 14:06:22 by gialexan         ###   ########.fr       */
+/*   Updated: 2023/09/05 13:52:56 by gialexan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int main(void)
+int	main(void)
 {
-	ft_putstr_fd("Test libft call\n", 1);
+	ft_putstr_fd("Test libft call!\n", 1);
+	return (0);
 }
